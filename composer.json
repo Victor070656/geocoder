@@ -1,0 +1,16 @@
+{
+  "name": "vpro/geocoding",
+  "description": "A PHP package to convert addresses to latitude and longitude coordinates using OpenStreetMap",
+  "type": "library",
+  "require": {
+    "php": ">=7.4",
+    "guzzlehttp/guzzle": "^7.0",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Geocoding\\": "src/"
+    }
+  },
+  "license": "MIT"
+}
